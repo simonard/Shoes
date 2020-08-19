@@ -3,9 +3,9 @@ server:
   
 spring:
   datasource:
-    url: jdbc:postgresql://mydatabase.cgvnyhemwmi0.us-west-1.rds.amazonaws.com/Shoes
-    password: p4ssw0rd
-    username: simonard
+    url: <postgres url>
+    password: <password>
+    username: <username>
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect

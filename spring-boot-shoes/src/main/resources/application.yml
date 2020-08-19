@@ -1,0 +1,14 @@
+server:
+  port: 9033
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://mydatabase.cgvnyhemwmi0.us-west-1.rds.amazonaws.com/Shoes
+    password: p4ssw0rd
+    username: simonard
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate:
+      ddl-auto: create

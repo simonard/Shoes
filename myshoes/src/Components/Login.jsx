@@ -34,7 +34,7 @@ function Login(props){
     }
     return(
     <React.Fragment>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <div className="container login">
             <div className="row">
                 <div className="col-sm-4"/>

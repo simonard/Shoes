@@ -17,7 +17,7 @@ function DisplayShoes(props){
     return(
         <React.Fragment>
             <br/><br/>
-            <div className="container">
+            <div className="container displayShoes">
                 <div className="row">
                 <table className="table">
                             <thead>
